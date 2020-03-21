@@ -1,4 +1,4 @@
 output "bucket" {
-    value = "${aws_s3_bucket.b.id}"
+    value = "${aws_s3_bucket.b.bucket}"
 }
 

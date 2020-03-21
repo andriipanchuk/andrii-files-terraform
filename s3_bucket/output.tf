@@ -1,4 +1,4 @@
 output "bucket" {
-    value = "${module.b.id}"
+    value = "${module.dev.bucket}"
 }
 
